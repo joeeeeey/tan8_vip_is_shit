@@ -1,0 +1,19 @@
+{
+  "name": "Crack Tan8",
+  "version": "1.0",
+  "description": "Crack Tan8.",
+  "permissions": ["https://*.tan8.com/*", "http://*.tan8.com/*", "activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://*.tan8.com/*", "http://*.tan8.com/*"],
+      "js": ["inject.js"]
+    }
+  ],
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "manifest_version": 2
+}
